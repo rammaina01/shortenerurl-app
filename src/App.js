@@ -6,12 +6,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      {/* <switch>
+      <switch>
         <Router >
           <Route path="/" exact component={Home} />
         </Router>
-      </switch> */}
-      <Home/>
+      </switch>
     </div>
   );
 }
